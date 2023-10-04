@@ -1,0 +1,53 @@
+body,
+html {
+    font-family: $font-family-sans-serif;
+}
+
+label {
+    &.text-caption {
+        font-family: $font-family-sans-serif !important;
+    }
+}
+
+.v-input {
+    .fa-solid {
+        font-size: 15px;
+    }
+
+    &__details {
+        padding: 10px 0 !important;
+    }
+}
+
+.v-btn {
+    &__content {
+        .active-icon {
+            position: relative;
+
+            &:after {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 0;
+                border-radius: 50%;
+                width: 6px;
+                height: 6px;
+                background-color: #3751FF;
+                box-shadow: 0 0 0 2px #F7F8FC;
+                z-index: 3;
+            }
+        }
+    }
+}
+
+.custom-card {
+    .v-card-title {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .v-avatar {
+        box-shadow: 0 0 0 2px #F7F8FC,
+            0 0 0 4px #DFE0EB;
+    }
+}

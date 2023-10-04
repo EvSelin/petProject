@@ -1,0 +1,12 @@
+// @use 'vuetify' with (
+//     $color-pack: false,
+// );
+
+// @use 'vuetify' with (
+//     $variable: false,
+// );
+
+@import './variables';
+@import './media-mixin';
+@import "./base";
+@import 'vuetify/styles';
